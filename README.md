@@ -1,5 +1,5 @@
 ## Install MySQL and RabbitMQ
-please follow up official doc to setup.
+please follow official doc to setup.
 
 MySQL 5.7
 
@@ -29,9 +29,10 @@ create table if not exists `broker_message_log` (
 ```
 
 ## change configration
-springboot-produce and springboot-consumer resources/application.properties
-spring.rabbitmq.host={your local rabbit server IP}
-spring.rabbitmq.port={your local rabbit server port}
+- springboot-produce and springboot-consumer 'resources/application.properties'
+- spring.rabbitmq.host={your local rabbit server IP}
+- spring.rabbitmq.port={your local rabbit server port}
+
 
 ## How to run demo
 - start springboot-produce application
